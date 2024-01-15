@@ -1,0 +1,96 @@
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.site-content {
+	margin-top: 84px;
+}
+
+@media (min-width: 700px) {
+	.site-content {
+		margin-top: 148px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.site-content {
+		margin-top: 100px;
+	}
+}
+
+/* For Login User */
+.admin-bar .site-header {
+	top: 32px;
+}
+
+@media (min-width: 700px) {
+	.admin-bar .site-content {
+		margin-top: 148px;
+	}
+}
+
+@media (min-width: 1000px) {
+.admin-bar	.site-content {
+		margin-top: 100px;
+	}
+}
+input.jb-button.jb-job-apply{
+	background-color: #ffdf00;
+	color: black;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 10px;
+	font-size: 18px;
+	font-family: Inter, serif;
+}
+input.jb-do-search.jb-button{
+	border-radius: 30px;
+	background-color: #ffdf00;
+	color: black;
+	font-family: Lovelo, serif;
+	font-weight: bold;
+	border-width: 1px;
+	border-color: black;
+	font-size: 18px;
+}
+input.jb-search-line {
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: black;
+	font-size: 18px;
+	padding: 10px;
+}
+input.jb-search-location {
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: black;
+	font-size: 18px;
+	padding: 10px;
+}
+select.jb-job-type-filter, select.jb-job-category-filter{
+	border-radius: 30px;
+	border-width: 2px;
+	border-color: black;
+	font-size: 14px;
+	padding: 5px;
+}
+.avatar.avatar-48.photo{
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+}
+.post-template-default .entry-content a {
+  text-decoration: none;
+  border-bottom: 3px solid #ffdf00;
+  color: inherit;
+	transition: background-color 0.3s;
+}
+.post-template-default .entry-content a:hover {
+  background-color: #ffdf00;
+  border-bottom: none;
+  color: black;
+	font-weight: bold;
+}

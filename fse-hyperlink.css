@@ -1,0 +1,11 @@
+/* Hyperlinks underline color changes */
+.post-template-default .entry-content a {
+    text-decoration: none;
+    border-bottom: 2px solid #9ef01a;
+    color: black;
+      transition: background-color 0.3s;
+  }
+  .post-template-default .entry-content a:hover {
+    border-bottom: 2px solid #04b230;
+      color: black;
+  }
